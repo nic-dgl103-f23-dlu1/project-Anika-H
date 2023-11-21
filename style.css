@@ -16,7 +16,6 @@
 
 html {
   font-size: 62.5%;
-  background-color: #f6f6f4;
 }
 
 /* ===============
@@ -26,48 +25,117 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  color: #5A5A5A;
+  color: #5a5a5a;
 }
 
 h1,
 h2,
 h3 {
   font-family: 'Raleway', sans-serif;
-  color: #FF99BA; 
+  color: #ff99ba;
+}
+
+h1,
+h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
 }
 
 a {
   text-transform: uppercase;
   text-decoration: none;
-  /* color: #57856c; */
 }
 
 /* ===============
     NAVIGATION
    =============== */
- 
- /* ===============
+
+header {
+  background-color: #f6f6f4;
+}
+
+/* ===============
     HERO
   =============== */
-  
-.hero{
-    padding-top: 2.0em;
-    text-align: center;
+
+.hero {
+  padding-top: 2.0em;
+  text-align: center;
 }
 
-.hero h1{
-    padding: 0em 0.5em;
-    font-size: 2.8rem;
-    
+.hero h1 {
+  padding: 0em 0.5em;
 }
 
-.hero p{
-    padding: 1.0em 1.8em;
+.hero p {
+  padding: 1.0em 1.8em;
 }
 
- /* ===============
+.hero a {
+  padding: 1.0em 4.0em;
+  display: inline-block;
+  color: #ffffff;
+  background-color: #619478;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 2.0em;
+}
+
+/* ===============
     SERVICES
   =============== */
 
+.services {
+  padding-top: 2.5em;
+  text-align: center;
+}
 
-  
+.services .text {
+  text-align: center;
+}
+
+.services h2 {
+  padding: 0em 2.0em;
+}
+
+.services .text p {
+  padding: 1.0em 1.5em;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.card1,
+.card2,
+.card3 {
+  background-color: #f6f6f4;
+  padding: 1.5em 1.0em;
+  margin: 1.0em;
+  text-align: left;
+}
+
+.cards h3 {
+  text-transform: capitalize;
+  color: #619478;
+  font-size: 2.4rem;
+}
+
+.cards p{
+  padding-top: 0.8em;
+}
+
+.services a {
+  padding: 1.0em 4.0em;
+  display: inline-block;
+  color: #ffffff;
+  background-color: #619478;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-top: 1.0em;
+}
+
+/* ===============
+    SERVICES
+  =============== */
