@@ -104,7 +104,7 @@ header {
   padding: 1.0em 2.4em;
 }
 
-.cards {
+.flex-container {
   display: flex;
   flex-direction: column;
 }
@@ -115,19 +115,19 @@ header {
   background-color: #f6f6f4;
   border-radius: 8px;
   padding: 1.5em 1.0em;
-  margin: 1.0em;
+  margin: 1.0em 2.0em;
   text-align: left;
   /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #6 */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.cards h3 {
+.flex-container h3 {
   text-transform: capitalize;
   color: #619478;
   font-size: 2.4rem;
 }
 
-.cards p {
+.flex-container p {
   padding-top: 0.8em;
 }
 
@@ -158,11 +158,11 @@ header {
   font-weight: 800;
 }
 
-.about p{
+.about p {
   padding: 1.0em 1.5em 0em;
 }
 
-.about .flex-container{
+.about .flex-container {
   display: flex;
   flex-direction: column;
 }
@@ -171,5 +171,32 @@ header {
    CALL-TO-ACTION
   =============== */
 
+.cta {
+  padding-top: 3.5em;
+  text-align: center;
+}
 
+.cta .content-width {
+  background-color: #f6f6f4;
+}
 
+.cta h2 {
+  padding: 2.0em 1.0em 0em;
+  text-transform: capitalize;
+}
+
+.cta p {
+  padding: 2.0em 2.0em 3.0em;
+}
+
+.cta a {
+  padding: 1.0em 4.0em;
+  display: inline-block;
+  color: #ffffff;
+  background-color: #619478;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 2.5em;
+  /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
