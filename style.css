@@ -1,0 +1,73 @@
+/* STYLES ----------------------------------
+1. Global settings ()
+2. Typography (headings, paragraphs, lists, buttons)
+3. Content blocks
+4. Page-specific (styles specific to individual locations)
+-----------------------------------------------------*/
+
+/* ===============
+   GLOBAL SETTINGS
+   =============== */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #f6f6f4;
+}
+
+/* ===============
+   TYPOGRAPHY
+   =============== */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  color: #5A5A5A;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #FF99BA; 
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  /* color: #57856c; */
+}
+
+/* ===============
+    NAVIGATION
+   =============== */
+ 
+ /* ===============
+    HERO
+  =============== */
+  
+.hero{
+    padding-top: 2.0em;
+    text-align: center;
+}
+
+.hero h1{
+    padding: 0em 0.5em;
+    font-size: 2.8rem;
+    
+}
+
+.hero p{
+    padding: 1.0em 1.8em;
+}
+
+ /* ===============
+    SERVICES
+  =============== */
+
+
+  
