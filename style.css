@@ -204,3 +204,37 @@ header {
 /* ===============
    Footer
   =============== */
+footer .flex-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding: 2.0em 0em 0.5em;
+  text-transform: capitalize;
+}
+
+.hours p {
+  padding-top: 0.5em;
+  text-transform: capitalize;
+}
+
+.phone{
+  padding-bottom: 0.5em;
+}
+.contact p{
+  padding: 0em 2.5em;
+}
+
+footer img{
+  text-align: center;
+  padding: 2.0em 2.0em 1.0em ;
+}
+
+.copy{
+  display: inline-blockmji;
+  text-align: center;
+}
