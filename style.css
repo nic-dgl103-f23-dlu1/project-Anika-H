@@ -311,7 +311,7 @@ footer img {
   =============== */
 
 .services{
-  padding-top: 6.0em ;
+  padding: 6.0em 0em 5.0em ;
 }
 
 .services .text{
@@ -333,7 +333,28 @@ footer img {
 }
 
 .services a{
+  padding: 1.2em 5.0em;
   margin: 3.5em;
+}
+
+/* ===============
+    SERVICES
+  =============== */
+
+.about{
+    padding-top: 6.0em ;
+    border-top: 1px solid #619478;
+    border-bottom: 1px solid #619478;
+}
+
+.about h3{
+    font-size: 3.8rem;
+    padding: 0em;
+}
+
+.about .flex-container{
+    padding: 2.5em 15.0em;
+    text-align: center;
 }
 
 }
