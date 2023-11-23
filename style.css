@@ -383,4 +383,19 @@ footer img {
   .cta .link {
     padding-top: 7.8em;
   }
+  /* ===============
+    FOOTER
+  =============== */
+
+
+  footer .flex-container {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 2.0em;
+  }
+
+ footer .contact h3{
+     padding-bottom: 17px;
+ }
+ 
 }
