@@ -243,6 +243,10 @@ footer img {
     margin: auto;
   }
 
+  h1, h2{
+  font-size: 3.8rem;
+  }
+
 /* ===============
     NAVIGATION
    =============== */
@@ -286,7 +290,6 @@ footer img {
 }
 
 .hero h1 {
-    font-size: 3.8rem;
     padding: 0em 3.0em 0em 0em;
   }
   
@@ -301,6 +304,36 @@ footer img {
 .image{
  padding-top: 2.0em;
  max-width: 50%;
+}
+
+/* ===============
+    SERVICES
+  =============== */
+
+.services{
+  padding-top: 6.0em ;
+}
+
+.services .text{
+  padding: 0em 0em 1.0em;
+}
+
+.services .flex-container{
+  flex-direction: row;
+  padding: 3.5em 0em;
+}
+
+.card1,
+.card2,
+.card3 {
+  padding: 3.0em 2.0em;
+  margin: 1.5em 2.0em;
+  text-align: center;
+  width: calc(100/3);
+}
+
+.services a{
+  margin: 3.5em;
 }
 
 }
