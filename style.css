@@ -19,9 +19,9 @@ html {
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  flex-direction: column;
+}
 
 /* ===============
    TYPOGRAPHY
@@ -60,9 +60,9 @@ header {
   border-bottom: 1px solid #619478;
 }
 
-header nav li a{
+header nav li a {
   color: #619478;
-  }
+}
 
 /* ===============
     HERO
@@ -243,16 +243,17 @@ footer img {
     margin: auto;
   }
 
-  h1, h2{
-  font-size: 3.8rem;
+  h1,
+  h2 {
+    font-size: 3.8rem;
   }
 
-/* ===============
+  /* ===============
     NAVIGATION
    =============== */
 
-  header{
-      background-color: #ffffff;
+  header {
+    background-color: #ffffff;
   }
 
   header nav ul {
@@ -274,87 +275,112 @@ footer img {
   /* ===============
     HERO
   =============== */
-.hero {
-  background-color: #f6f6f4;
-  text-align: left;
-  padding-top: 0em;
-}
+  .hero {
+    background-color: #f6f6f4;
+    text-align: left;
+    padding-top: 0em;
+  }
 
-.hero .flex-container{
+  .hero .flex-container {
     display: flex;
-    flex-direction: row; 
-}
+    flex-direction: row;
+  }
 
-.hero .text{
-  padding: 4.0em 0em 0em 5.0em;
-}
+  .hero .text {
+    padding: 4.0em 0em 0em 5.0em;
+  }
 
-.hero h1 {
+  .hero h1 {
     padding: 0em 3.0em 0em 0em;
   }
-  
-.hero p {
+
+  .hero p {
     padding: 3.0em 8.5em 4.0em 0em;
-}
+  }
 
-.hero a{
+  .hero a {
     text-align: center;
-}
+  }
 
-.image{
- padding-top: 2.0em;
- max-width: 50%;
-}
+  .image {
+    padding-top: 2.0em;
+    max-width: 50%;
+  }
 
-/* ===============
+  /* ===============
     SERVICES
   =============== */
 
-.services{
-  padding: 6.0em 0em 5.0em ;
-}
+  .services {
+    padding: 6.0em 0em 5.0em;
+  }
 
-.services .text{
-  padding: 0em 0em 1.0em;
-}
+  .services .text {
+    padding: 0em 0em 1.0em;
+  }
 
-.services .flex-container{
-  flex-direction: row;
-  padding: 3.5em 0em;
-}
+  .services .flex-container {
+    flex-direction: row;
+    padding: 3.5em 0em;
+  }
 
-.card1,
-.card2,
-.card3 {
-  padding: 3.0em 2.0em;
-  margin: 1.5em 2.0em;
-  text-align: center;
-  width: calc(100/3);
-}
+  .card1,
+  .card2,
+  .card3 {
+    padding: 3.0em 2.0em;
+    margin: 1.5em 2.0em;
+    text-align: center;
+    width: calc(100/3);
+  }
 
-.services a{
-  padding: 1.2em 5.0em;
-  margin: 3.5em;
-}
+  .services a {
+    padding: 1.2em 5.0em;
+    margin: 3.5em;
+  }
 
-/* ===============
+  /* ===============
     SERVICES
   =============== */
 
-.about{
-    padding-top: 6.0em ;
+  .about {
+    padding-top: 6.0em;
     border-top: 1px solid #619478;
     border-bottom: 1px solid #619478;
-}
+  }
 
-.about h3{
+  .about h3 {
     font-size: 3.8rem;
     padding: 0em;
-}
+  }
 
-.about .flex-container{
+  .about .flex-container {
     padding: 2.5em 15.0em;
     text-align: center;
-}
+  }
 
+  /* ===============
+    CTA
+  =============== */
+
+  .cta {
+    padding: 3.0em 0em 4.0em;
+    border-bottom: 1px solid #619478;
+  }
+
+  .cta .flex-container {
+    flex-direction: row;
+  }
+
+  .cta .text {
+    text-align: left;
+    width: 75%;
+  }
+
+  .cta p {
+    padding: 1.5em 15.0em 3.0em 2.0em;
+  }
+
+  .cta .link {
+    padding-top: 7.8em;
+  }
 }
