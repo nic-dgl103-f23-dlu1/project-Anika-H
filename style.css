@@ -2,6 +2,7 @@
 1. Global settings 
 2. Typography (headings, paragraphs, lists, buttons)
 3. Page-specific (styles specific to individual locations)
+4. Content Block Specific (nav, shero, services, about, cta, footer)
 4. Media Query
 -----------------------------------------------------*/
 
@@ -49,7 +50,10 @@ h2 {
 a {
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 1.2rem;
 }
+
+/* ----------------------------------------------------------- HOMEPAGE ---------------------------------------------------------- */
 
 /* ===============
     NAVIGATION
@@ -61,6 +65,7 @@ header {
 }
 
 header nav li a {
+  font-size: 1.6rem;
   color: #619478;
 }
 
@@ -86,14 +91,13 @@ header nav li a {
   display: inline-block;
   color: #ffffff;
   background-color: #619478;
-  font-size: 1.2rem;
   border-radius: 10px;
   margin-bottom: 40px;
   /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.hero .image{
+.hero .image {
   padding-top: 0px;
 }
 
@@ -145,7 +149,6 @@ header nav li a {
   display: inline-block;
   color: #ffffff;
   background-color: #619478;
-  font-size: 1.2rem;
   border-radius: 12px;
   margin-top: 16px;
   /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
@@ -171,8 +174,8 @@ header nav li a {
   padding: 0px 24px;
 }
 
-.about .item2{
-    padding-top: 24px;
+.about .item2 {
+  padding-top: 24px;
 }
 
 /* ===============
@@ -199,7 +202,6 @@ header nav li a {
   display: inline-block;
   color: #ffffff;
   background-color: #619478;
-  font-size: 1.2rem;
   border-radius: 10px;
   margin-bottom: 3.5em;
   /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
@@ -211,10 +213,11 @@ header nav li a {
   =============== */
 footer .flex-container {
   text-align: center;
+  border-bottom: 1px solid #619478;
 }
 
-footer .logo{
-    padding: 30px 100px 0px;
+footer .logo {
+  padding: 30px 100px 0px;
 }
 
 footer h3 {
@@ -232,19 +235,70 @@ footer h3 {
   padding: 0px 40px;
 }
 
-.contact{
-    padding-bottom: 20px;
+.contact {
+  padding-bottom: 20px;
 }
 
-.social-container{
-    border-bottom: 1px solid #619478;
+.social-container,
+img {
+  text-align: center;
+  padding: 15px;
 }
 
-.social-container, footer img{
+.flex-container .map {
+  padding-bottom: 15px;
+}
+
+/* ---------------------------------------------------------- MEMBERSHIPS PAGE --------------------------------------------------- */
+/* ===============
+    HERO
+  =============== */
+
+#yoga-photo,
+.image-overlay {
+  width: 375px;
+  height: 250px;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  padding: 0px;
+}
+
+.image-overlay {
+  background-color: #ff99ba;
+  opacity: 0.2;
+}
+
+.hero-prices h1 {
+    color: #ffffff;
+  padding-top: 110px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* ===============
+    MEMBERSHIPS
+  =============== */
+.memberships {
+  padding-top: 175px;
+}
+
+.memberships h2{
+    padding: 0px 30px 20px;
     text-align: center;
-    padding: 15px;
+    text-transform: capitalize;
 }
 
+/* .memberships .card1 .card2, .passes .card1, .card2 .card3{
+    background-color: #f6f6f4;
+    border-radius: 8px;
+    padding: 24px 16px;
+    margin: 16px 32px;
+    text-align: left;
+    Box shadow is from https://getcssscan.com/css-box-shadow-examples #6
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}  
 
 /* ===============
     MEDIA QUERY
@@ -296,7 +350,7 @@ footer h3 {
   .hero {
     background-color: #f6f6f4;
     text-align: left;
-    padding-top: 0em;
+    padding-top: 0px;
   }
 
   .hero .flex-container {
@@ -305,24 +359,25 @@ footer h3 {
   }
 
   .hero .text {
-    padding: 4.0em 0em 0em 5.0em;
+    width: 60%;
+    padding: 60px 0px 0px 150px;
   }
 
   .hero h1 {
-    padding: 0em 3.0em 0em 0em;
+    padding-right: 115px;
+    padding-left: 0px;
   }
 
   .hero p {
-    padding: 3.0em 8.5em 4.0em 0em;
+    padding: 30px 135px 45px 0px;
   }
 
   .hero a {
     text-align: center;
   }
 
-  .image {
-    padding-top: 2.0em;
-    max-width: 50%;
+  .hero .image {
+    max-width: 40%;
   }
 
   /* ===============
@@ -330,49 +385,53 @@ footer h3 {
   =============== */
 
   .services {
-    padding: 6.0em 0em 5.0em;
+    padding: 80px 0px 60px;
   }
 
-  .services .text {
-    padding: 0em 0em 1.0em;
+  .services .text p {
+    padding: 24px 320px 0px;
   }
 
   .services .flex-container {
     flex-direction: row;
-    padding: 3.5em 0em;
+    padding: 35px 0px;
   }
 
   .card1,
   .card2,
   .card3 {
-    padding: 3.0em 2.0em;
-    margin: 1.5em 2.0em;
+    padding: 32px;
+    margin: 24px;
     text-align: center;
     width: calc(100/3);
   }
 
   .services a {
-    padding: 1.2em 5.0em;
-    margin: 3.5em;
+    padding: 14px 60px;
   }
 
   /* ===============
-    SERVICES
+    ABOUT
   =============== */
 
   .about {
-    padding-top: 6.0em;
+    padding-top: 80px;
     border-top: 1px solid #619478;
     border-bottom: 1px solid #619478;
   }
 
   .about h3 {
     font-size: 3.8rem;
-    padding: 0em;
+    padding: 0px 0px 60px;
   }
 
   .about .flex-container {
     text-align: center;
+    padding: 0px 220px;
+  }
+
+  .about .item2 {
+    padding-top: 30px;
   }
 
   /* ===============
@@ -380,7 +439,7 @@ footer h3 {
   =============== */
 
   .cta {
-    padding: 3.0em 0em 4.0em;
+    padding: 80px 0px 60px;
     border-bottom: 1px solid #619478;
   }
 
@@ -393,26 +452,50 @@ footer h3 {
     width: 75%;
   }
 
+  .cta h2 {
+    padding: 0px 0px 0px 50px;
+  }
+
   .cta p {
-    padding: 1.5em 15.0em 3.0em 2.0em;
+    padding: 24px 180px 0px 50px;
   }
 
   .cta .link {
-    padding-top: 7.8em;
+    padding-top: 45px;
   }
   /* ===============
     FOOTER
   =============== */
 
-
   footer .flex-container {
     flex-direction: row;
-    justify-content: flex-end;
-    padding-bottom: 2.0em;
+    justify-content: space-between;
   }
 
- footer .contact h3{
-     padding-bottom: 17px;
- }
- 
+  footer .logo {
+    width: 20%;
+    padding: 60px 0px 20px 160px;
+  }
+
+  footer h3 {
+    padding-top: 0px;
+  }
+
+  .hours p {
+    padding-bottom: 24px;
+  }
+
+  .flex-container .hours {
+    order: 2;
+  }
+
+  .flex-container .contact {
+    order: 3;
+  }
+
+  .flex-container .map {
+    order: 1;
+    width: 50%;
+    padding: 0px;
+  }
 }
