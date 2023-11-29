@@ -65,13 +65,12 @@ a {
    =============== */
 
 header {
-  background-color: #f6f6f4;
-  border-bottom: 1px solid #619478;
+  background-color: #619478;
 }
 
 header nav li a {
   font-size: 1.6rem;
-  color: #619478;
+  color: #f6f6f6;
 }
 
 /* ===============
@@ -91,6 +90,7 @@ header nav li a {
   padding: 32px 30px 40px;
 }
 
+
 .hero a {
   padding: 12px 48px;
   display: inline-block;
@@ -99,11 +99,11 @@ header nav li a {
   border-radius: 10px;
   margin-bottom: 40px;
   /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+ } 
 
 .hero .image {
-  padding-top: 0px;
+  padding: 0px;
 }
 
 /* ===============
@@ -193,7 +193,7 @@ header nav li a {
   =============== */
 
 .cta {
-  background-color: #f6f6f4;
+  background-color: #619478;
   text-align: center;
   padding-top: 80px;
 }
@@ -204,14 +204,15 @@ header nav li a {
 }
 
 .cta p {
+    color: #f6f6f6;
   padding: 0px 24px 36px;
 }
 
 .cta a {
   padding: 12px 48px;
   display: inline-block;
-  color: #ffffff;
-  background-color: #619478;
+  color: #f6f6f6;
+  border: solid 1px #f6f6f6;
   border-radius: 10px;
   margin-bottom: 3.5em;
   /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
@@ -250,8 +251,7 @@ footer h3 {
   padding-bottom: 20px;
 }
 
-.social-container,
-img {
+.socials img {
   text-align: center;
   padding: 15px;
 }
@@ -280,8 +280,8 @@ img {
   opacity: 0.2;
 }
 
-.hero-prices h1 {
-    color: #ffffff;
+.hero-prices h1, .hero-services h1 {
+  color: #ffffff;
   padding-top: 110px;
   text-align: center;
   text-transform: capitalize;
@@ -294,10 +294,15 @@ img {
   padding-top: 175px;
 }
 
+.prices-page .flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .prices-page h2{
-    padding: 0px 30px 20px;
-    text-align: center;
     text-transform: capitalize;
+    text-align: center;
+    padding: 0px 30px;
 }
 
 .prices-page h3{
@@ -315,8 +320,9 @@ img {
     list-style-type: circle;
     padding: 8px;
     margin: 0px 22px;
-
 }
+
+
 
 /* ---------------------------------------------------------- SERVICES PAGE --------------------------------------------------- */
 
@@ -343,11 +349,6 @@ img {
   /* ===============
     NAVIGATION
    =============== */
-
-  header {
-    background-color: #ffffff;
-  }
-
   header nav ul {
     display: flex;
     flex-direction: row;
@@ -380,7 +381,7 @@ img {
 
   .hero .text {
     width: 60%;
-    padding: 60px 0px 0px 150px;
+    padding: 60px 0px 0px 155px;
   }
 
   .hero h1 {
@@ -423,7 +424,6 @@ img {
     padding: 32px;
     margin: 24px;
     text-align: center;
-    width: calc(100/3);
   }
 
   .services a {
@@ -494,7 +494,11 @@ img {
 
   footer .logo {
     width: 20%;
-    padding: 60px 0px 20px 160px;
+    padding: 40px 0px 20px 160px;
+  }
+
+  footer{
+      border-top: solid 1px #619478;
   }
 
   footer h3 {
@@ -518,4 +522,58 @@ img {
     width: 50%;
     padding: 0px;
   }
+/* ---------------------------------------------------------- MEMBERSHIPS PAGE --------------------------------------------------- */
+  /* ===============
+    HERO
+  =============== */
+#yoga-photo,
+.image-overlay {
+  width: 50%;
+  height: 50%;
+}
+
+.hero-prices h1 {
+  font-size: 5.0rem;
+  padding-top: 155px;
+
+}
+
+/* ===============
+    MEMBERSHIPS
+  =============== */
+.memberships {
+  padding-top: 300px;
+}
+
+.prices-page .flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.prices-page h2{
+    padding: 0px 30px 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.prices-page h3{
+    font-size: 2.4rem;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.prices-page p{
+  text-align: left;
+  padding: 15px 0px;
+} 
+
+.prices-page ul li {
+  text-align: left;
+    padding: 8px;
+    margin: 0px 22px;
+}
+
+.passes{
+    padding: 80px 0px;
+}
 }
