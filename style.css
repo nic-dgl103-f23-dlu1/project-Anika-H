@@ -53,6 +53,7 @@ h2 {
 }
 
 a {
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.2rem;
@@ -399,10 +400,17 @@ tbody tr:hover {
 
   .classes .image{
       text-align: center;
+      padding-bottom: 15px;
   }
 
   .classes .link{
-      text-align: center;
+    text-align: center;  
+  }
+
+  .classes .link a{
+      text-transform: capitalize;
+      text-decoration: underline;
+      color: #808080;
   }
   
   /* ====================
