@@ -42,9 +42,9 @@ h3 {
 }
 
 h3 {
-    text-transform: capitalize;
-    color: #619478;
-  }
+  text-transform: capitalize;
+  color: #619478;
+}
 
 h1,
 h2 {
@@ -90,7 +90,6 @@ header nav li a {
   padding: 32px 30px 40px;
 }
 
-
 .hero a {
   padding: 12px 48px;
   display: inline-block;
@@ -99,8 +98,8 @@ header nav li a {
   border-radius: 10px;
   margin-bottom: 40px;
   /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
- } 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 .hero .image {
   padding: 0px;
@@ -119,7 +118,7 @@ header nav li a {
   text-align: center;
 }
 
-.services h3{
+.services h3 {
   font-size: 2.4rem;
 }
 
@@ -204,7 +203,7 @@ header nav li a {
 }
 
 .cta p {
-    color: #f6f6f6;
+  color: #f6f6f6;
   padding: 0px 24px 36px;
 }
 
@@ -280,7 +279,8 @@ footer h3 {
   opacity: 0.2;
 }
 
-.hero-prices h1, .hero-services h1 {
+.hero-prices h1,
+.hero-services h1 {
   color: #ffffff;
   padding-top: 110px;
   text-align: center;
@@ -294,37 +294,128 @@ footer h3 {
   padding-top: 175px;
 }
 
-.prices-page .flex-container{
-    display: flex;
-    flex-direction: column;
+.prices-page .flex-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.prices-page h2{
-    text-transform: capitalize;
-    text-align: center;
-    padding: 0px 30px;
+.prices-page h2 {
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0px 30px;
 }
 
-.prices-page h3{
-    font-size: 2.4rem;
+.prices-page h3 {
+  font-size: 2.4rem;
 }
 
-.prices-page p{
-    color: #808080;
-    font-size: 1.4rem;
-    font-weight: 800;
-    padding: 10px 0px;
-} 
+.prices-page p {
+  color: #808080;
+  font-size: 1.4rem;
+  font-weight: 800;
+  padding: 10px 0px;
+}
 
 .prices-page ul li {
-    list-style-type: circle;
-    padding: 8px;
-    margin: 0px 22px;
+  list-style-type: circle;
+  padding: 8px;
+  margin: 0px 22px;
 }
 
-
-
 /* ---------------------------------------------------------- SERVICES PAGE --------------------------------------------------- */
+
+.pt h2, .classes h2, .orientation h2{
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.pt p, .classes p, .orientation p{
+    text-align: center;
+}
+
+/* ============================
+    PERSONAL TRAINING SECTION 
+  ============================= */
+
+.pt {
+  padding-top: 175px;
+}
+
+.pt p {
+  padding-bottom: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+caption{
+  font-size: 2.2rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  padding-bottom: 10px; 
+}
+
+td, th{
+    padding: 10px;
+    /* border: 1px solid #808080; */
+}
+
+th{
+    padding: 15px 0px;
+    text-align: center;
+    background-color: #619478;
+    color: #f6f6f6;
+}
+
+tr td{
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+tbody tr:hover {
+    background-color: #ddd;
+  }
+
+  /* ====================
+    CLASSES SECTION
+  ===================== */
+  .classes {
+    padding-top: 80px;
+  }
+
+  .classes p {
+      padding: 0px 20px 15px;
+  }
+
+  .classes .flex-container{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .classes .image{
+      text-align: center;
+  }
+
+  .classes .link{
+      text-align: center;
+  }
+  
+  /* ====================
+    ORIENTATION
+  ===================== */
+  .orientation {
+    padding: 80px 0px 30px;
+    border-bottom: solid 1px #619478;
+  }
+
+  .orientation p{
+    padding: 0px 15px 15px;
+}
 
 /* ===============
     MEDIA QUERY
@@ -437,7 +528,6 @@ footer h3 {
   .about {
     padding-top: 80px;
     border-top: 1px solid #619478;
-    border-bottom: 1px solid #619478;
   }
 
   .about h3 {
@@ -497,8 +587,8 @@ footer h3 {
     padding: 40px 0px 20px 160px;
   }
 
-  footer{
-      border-top: solid 1px #619478;
+  footer {
+    border-top: solid 1px #619478;
   }
 
   footer h3 {
@@ -522,58 +612,57 @@ footer h3 {
     width: 50%;
     padding: 0px;
   }
-/* ---------------------------------------------------------- MEMBERSHIPS PAGE --------------------------------------------------- */
+  /* ---------------------------------------------------------- MEMBERSHIPS PAGE --------------------------------------------------- */
   /* ===============
     HERO
   =============== */
-#yoga-photo,
-.image-overlay {
-  width: 50%;
-  height: 50%;
-}
+  #yoga-photo,
+  .image-overlay {
+    width: 50%;
+    height: 50%;
+  }
 
-.hero-prices h1 {
-  font-size: 5.0rem;
-  padding-top: 155px;
+  .hero-prices h1 {
+    font-size: 5.0rem;
+    padding-top: 155px;
+  }
 
-}
-
-/* ===============
+  /* ===============
     MEMBERSHIPS
   =============== */
-.memberships {
-  padding-top: 300px;
-}
+  .memberships {
+    padding-top: 300px;
+  }
 
-.prices-page .flex-container{
+  .prices-page .flex-container {
     display: flex;
     flex-direction: row;
-}
+  }
 
-.prices-page h2{
+  .prices-page h2 {
     padding: 0px 30px 20px;
     text-align: center;
     text-transform: capitalize;
-}
+  }
 
-.prices-page h3{
+  .prices-page h3 {
     font-size: 2.4rem;
     text-align: left;
     padding-bottom: 5px;
-}
+  }
 
-.prices-page p{
-  text-align: left;
-  padding: 15px 0px;
-} 
+  .prices-page p {
+    text-align: left;
+    padding: 15px 0px;
+  }
 
-.prices-page ul li {
-  text-align: left;
+  .prices-page ul li {
+    text-align: left;
     padding: 8px;
     margin: 0px 22px;
-}
+  }
 
-.passes{
+  .passes {
     padding: 80px 0px;
-}
+  }
 }
