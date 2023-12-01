@@ -24,6 +24,14 @@ html {
   flex-direction: column;
 }
 
+/* .services, .hero{
+  height: 100vh;
+}
+
+.about, .cta{
+ height: 50vh;
+} */
+
 /* ===============
    TYPOGRAPHY
    =============== */
@@ -74,6 +82,10 @@ header nav li a {
   color: #f6f6f6;
 }
 
+header img{
+    padding: 12px 50px;
+}
+
 /* ===============
     HERO
   =============== */
@@ -105,6 +117,11 @@ header nav li a {
 .hero .image {
   padding: 0px;
 }
+
+/* .hero .flex-container{
+    display: flex;
+    flex-direction: column;
+} */
 
 /* ===============
     SERVICES
@@ -224,7 +241,12 @@ header nav li a {
   =============== */
 footer .flex-container {
   text-align: center;
-  border-bottom: 1px solid #619478;
+}
+
+footer .content-width{
+    border-bottom: 1px solid #619478;
+    width: 100%;
+    margin: 0px;
 }
 
 footer .logo {
@@ -448,21 +470,27 @@ tbody tr:hover {
   /* ===============
     NAVIGATION
    =============== */
+    
   header nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
     list-style-type: none;
+    padding: 20px 0px 20px 50px;
   }
 
   header nav li {
-    padding: 24px 50px;
+    padding: 12px 50px;
   }
 
   header .toggle {
     display: none;
   }
+
+  header .flex-container {
+    display: flex;
+    flex-direction: row;
+}
 
   /* ===============
     HERO
@@ -498,7 +526,8 @@ tbody tr:hover {
 
   .hero .image {
     max-width: 40%;
-  }
+    object-fit: cover;
+  } 
 
   /* ===============
     SERVICES
@@ -592,7 +621,7 @@ tbody tr:hover {
 
   footer .logo {
     width: 20%;
-    padding: 40px 0px 20px 160px;
+    padding: 40px 0px 20px 200px;
   }
 
   footer {
@@ -613,6 +642,7 @@ tbody tr:hover {
 
   .flex-container .contact {
     order: 3;
+    padding-right: 50px;
   }
 
   .flex-container .map {
@@ -626,8 +656,8 @@ tbody tr:hover {
   =============== */
   #yoga-photo,
   .image-overlay {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 75%;
   }
 
   .hero-prices h1 {
@@ -673,4 +703,9 @@ tbody tr:hover {
   .passes {
     padding: 80px 0px;
   }
+}
+
+/* ---------------------------------------------------------- SERVICES PAGE --------------------------------------------------- */
+.orientation p{
+  padding: 20px 200px;
 }
