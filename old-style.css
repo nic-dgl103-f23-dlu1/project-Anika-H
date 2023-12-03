@@ -1,0 +1,856 @@
+/* STYLES ----------------------------------
+1. Global settings 
+2. Typography (headings, paragraphs, lists, buttons)
+3. Page-specific (styles specific to individual locations)
+4. Content Block Specific (nav, shero, services, about, cta, footer)
+4. Media Query
+-----------------------------------------------------*/
+
+/* ===============
+   GLOBAL SETTINGS
+   =============== */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===============
+   TYPOGRAPHY
+   =============== */
+
+/* body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  color: #808080;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #ff99ba;
+}
+
+h3 {
+  text-transform: capitalize;
+  color: #619478;
+}
+
+h1,
+h2 {
+  font-size: 3.0rem;
+  font-weight: 800;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.2rem;
+} */
+
+/* ===============
+   Transition
+   =============== */
+.hero a:hover {
+  background-color: #436653;
+}
+
+.services a:hover {
+  background-color: #436653;
+}
+
+.cta a:hover {
+  background-color: #436653;
+}
+
+a {
+  cursor: pointer;
+  transition: color 2s ease-in-out;
+}
+
+button {
+  cursor: pointer;
+  transition: color 2s ease-in-out;
+}
+
+/* ----------------------------------------------------------- HOMEPAGE ---------------------------------------------------------- */
+
+/* ===============
+    NAVIGATION
+   =============== */
+
+header {
+  background-color: #619478;
+}
+
+/* header nav li a {
+  font-size: 1.6rem;
+} */
+
+header img {
+  padding: 12px 50px;
+}
+
+/* ===============
+    HERO
+  =============== */
+
+.hero {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.hero h1 {
+  padding: 0px 15px;
+}
+
+.hero p {
+  padding: 32px 30px 40px;
+}
+
+.hero a {
+  padding: 12px 48px;
+  display: inline-block;
+  background-color: #619478;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hero .image {
+  padding: 0px;
+}
+
+/* .hero .flex-container{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* ===============
+    SERVICES
+  =============== */
+
+.services {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.services .text {
+  text-align: center;
+}
+
+.services h3 {
+  font-size: 2.4rem;
+}
+
+.services h2 {
+  padding: 0px 45px;
+}
+
+.services .text p {
+  padding: 24px 40px;
+}
+
+.card1,
+.card2,
+.card3 {
+  background-color: #f6f6f4;
+  border-radius: 8px;
+  padding: 24px 16px;
+  margin: 20px 32px;
+  text-align: left;
+  /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #6 */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* .services h3 {
+  text-transform: capitalize;
+  color: #619478;
+  font-size: 2.4rem;
+} */
+
+.services .flex-container p {
+  padding-top: 14px;
+}
+
+.services a {
+  padding: 12px 48px;
+  display: inline-block;
+  background-color: #619478;
+  border-radius: 12px;
+  margin-top: 16px;
+  /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* ===============
+    ABOUT US
+  =============== */
+
+.about {
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.about h3 {
+  padding: 0em 30px 36px;
+}
+
+.about p {
+  padding: 0px 24px;
+}
+
+.about .item2 {
+  padding-top: 24px;
+}
+
+/* ===============
+   CALL-TO-ACTION
+  =============== */
+
+.cta {
+  background-color: #619478;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.cta h2 {
+  padding: 0px 30px 36px;
+  text-transform: capitalize;
+}
+
+.cta p {
+  /* color: #f6f6f6; */
+  padding: 0px 24px 36px;
+}
+
+.cta a {
+  padding: 12px 48px;
+  display: inline-block;
+  /* color: #f6f6f6; */
+  border: solid 1px #f6f6f6;
+  border-radius: 10px;
+  margin-bottom: 3.5em;
+  /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* ===============
+   Footer
+  =============== */
+footer .flex-container {
+  text-align: center;
+}
+
+footer .content-width {
+  border-bottom: 1px solid #619478;
+  width: 100%;
+  margin: 0px;
+}
+
+footer .logo {
+  padding: 30px 100px 0px;
+}
+
+footer h3 {
+  /* color: #ff99ba; */
+  /* font-size: 1.8rem;
+  font-weight: 800; */
+  padding: 36px 0px 20px;
+  /* text-transform: capitalize; */
+}
+
+.hours p {
+  text-transform: capitalize;
+}
+
+.contact p {
+  padding: 0px 40px;
+}
+
+.contact {
+  padding-bottom: 20px;
+}
+
+.socials img {
+  text-align: center;
+  padding: 15px;
+}
+
+.flex-container .map {
+  width: 375px;
+  padding-bottom: 15px;
+}
+
+/* ---------------------------------------------------------- MEMBERSHIPS PAGE --------------------------------------------------- */
+/* ===============
+    HERO
+  =============== */
+
+#yoga-photo,
+.image-overlay {
+  width: 375px;
+  height: 250px;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  padding: 0px;
+}
+
+/* .image-overlay {
+  background-color: #ff99ba;
+  opacity: 0.2;
+} */
+
+.hero-prices h1,
+.hero-services h1 {
+  /* color: #ffffff; */
+  padding-top: 110px;
+  text-align: center;
+  /* text-transform: capitalize; */
+}
+
+/* ===============
+    MEMBERSHIPS
+  =============== */
+.memberships {
+  padding-top: 175px;
+}
+
+.prices-page .flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.prices-page h2 {
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0px 30px;
+}
+
+/* .prices-page h3 {
+  font-size: 2.4rem;
+} */
+
+.prices-page p {
+  /* color: #808080;
+  font-size: 1.4rem;
+  font-weight: 800; */
+  padding: 10px 0px;
+}
+
+.prices-page ul li {
+  list-style-type: circle;
+  padding: 8px;
+  margin: 0px 22px;
+}
+
+/* ---------------------------------------------------------- SERVICES PAGE --------------------------------------------------- */
+
+.services h2 {
+  /* text-transform: capitalize; */
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.services p {
+  text-align: center;
+}
+
+/* ============================
+    PERSONAL TRAINING SECTION 
+  ============================= */
+
+.pt {
+  padding-top: 175px;
+}
+
+.pt p {
+  padding-bottom: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+caption {
+  /* font-size: 2.2rem;
+  font-weight: 800;
+  text-transform: capitalize; */
+  padding-bottom: 10px;
+}
+
+td,
+th {
+  padding: 10px;
+  /* border: 1px solid #808080; */
+}
+
+th {
+  padding: 15px 0px;
+  text-align: center;
+  background-color: #619478;
+  /* color: #f6f6f6; */
+}
+
+tr td {
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* ====================
+    CLASSES SECTION
+  ===================== */
+.classes {
+  padding-top: 80px;
+}
+
+.classes p {
+  padding: 0px 20px 15px;
+}
+
+.classes .flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.classes .image {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.classes .link {
+  text-align: center;
+}
+
+/* .classes .link a {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: #808080;
+} */
+
+/* ====================
+    ORIENTATION
+  ===================== */
+.orientation {
+  padding: 80px 0px 30px;
+  border-bottom: solid 1px #619478;
+}
+
+.orientation p {
+  padding: 0px 15px 15px;
+}
+
+/* ------------------------------------------------------------------ CONTACT PAGE ------------------------------------------------------------------ */
+/* ====================
+    CONTACT US
+  ===================== */
+.contact-info {
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.contact-info h2 {
+  /* text-transform: capitalize; */
+  padding-bottom: 25px;
+}
+
+/* ====================
+    FORM
+  ===================== */
+.form-container {
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  padding: 20px;
+  max-width: 75%;
+  margin: 30px auto;
+}
+
+.form-container h2 {
+  /* text-align: center;
+  text-transform: capitalize; */
+  padding-bottom: 30px;
+}
+
+input[type="reset"] {
+  /* text-transform: uppercase;
+  color: #619478; */
+  padding: 10px 24px;
+  border: 1px solid #619478;
+  border-radius: 10px;
+}
+
+input[type="reset"]:hover {
+  background-color: #d5d5d5;
+}
+
+input[type="submit"] {
+  /* text-transform: uppercase;
+  color: #f6f6f6; */
+  background-color: #619478;
+  padding: 10px 24px;
+  border: 1px solid #619478;
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #436653;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* input,
+select,
+textarea {
+  font-size: 1em; 
+} */
+
+input[type="text"],
+select,
+textarea {
+  width: 90%;
+  padding: 14px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 90%;
+  padding: 14px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  resize: vertical;
+}
+
+fieldset {
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #808080;
+}
+
+input:required {
+  border: 1px solid red;
+}
+
+/* ===============
+    MEDIA QUERY
+  =============== */
+
+/* Large devices (desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* ===============
+   GLOBAL SETTINGS
+  =============== */
+
+  .content-width {
+    width: 1170px;
+    margin: auto;
+  }
+
+  h1,
+  h2 {
+    font-size: 3.8rem;
+  }
+
+  /* ===============
+    NAVIGATION
+   =============== */
+
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px 0px 20px 50px;
+  }
+
+  header nav li {
+    padding: 12px 50px;
+  }
+
+  header .toggle {
+    display: none;
+  }
+
+  header .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* ===============
+    HERO
+  =============== */
+  .hero {
+    background-color: #f6f6f4;
+    text-align: left;
+    padding-top: 0px;
+  }
+
+  .hero .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero .text {
+    width: 60%;
+    padding: 60px 0px 0px 155px;
+  }
+
+  .hero h1 {
+    padding-right: 115px;
+    padding-left: 0px;
+  }
+
+  .hero p {
+    padding: 30px 135px 45px 0px;
+  }
+
+  .hero a {
+    text-align: center;
+  }
+
+  .hero .image {
+    max-width: 40%;
+    object-fit: cover;
+  }
+
+  /* ===============
+    SERVICES
+  =============== */
+
+  .services {
+    padding: 80px 0px 60px;
+  }
+
+  .services .text p {
+    padding: 24px 320px 0px;
+  }
+
+  .services .flex-container {
+    flex-direction: row;
+    padding: 35px 0px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    padding: 32px;
+    margin: 24px;
+    text-align: center;
+  }
+
+  .services a {
+    padding: 14px 60px;
+  }
+
+  /* ===============
+    ABOUT
+  =============== */
+
+  .about {
+    padding-top: 80px;
+    border-top: 1px solid #619478;
+  }
+
+  .about h3 {
+    font-size: 3.8rem;
+    padding: 0px 0px 60px;
+  }
+
+  .about .flex-container {
+    text-align: center;
+    padding: 0px 220px;
+  }
+
+  .about .item2 {
+    padding-top: 30px;
+  }
+
+  /* ===============
+    CTA
+  =============== */
+
+  .cta {
+    padding: 80px 0px 60px;
+    border-bottom: 1px solid #619478;
+  }
+
+  .cta .flex-container {
+    flex-direction: row;
+  }
+
+  .cta .text {
+    text-align: left;
+    width: 75%;
+  }
+
+  .cta h2 {
+    padding: 0px 0px 0px 50px;
+  }
+
+  .cta p {
+    padding: 24px 180px 0px 50px;
+  }
+
+  .cta .link {
+    padding-top: 45px;
+  }
+  /* ===============
+    FOOTER
+  =============== */
+
+  footer .flex-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  footer .logo {
+    width: 20%;
+    padding: 40px 0px 20px 200px;
+  }
+
+  footer {
+    border-top: solid 1px #619478;
+  }
+
+  footer h3 {
+    padding-top: 0px;
+  }
+
+  .hours p {
+    padding-bottom: 24px;
+  }
+
+  .flex-container .hours {
+    order: 2;
+  }
+
+  .flex-container .contact {
+    order: 3;
+    padding-right: 100px;
+  }
+
+  .flex-container .map {
+    order: 1;
+    width: 50%;
+    padding: 0px;
+  }
+
+
+  /* ---------------------------------------------------------- MEMBERSHIPS PAGE --------------------------------------------------- */
+  /* ===============
+    HERO
+  =============== */
+  /* #yoga-photo,
+  .image-overlay {
+    width: 100%;
+    height: 75%;
+  } */
+
+  #yoga-photo {
+    width: 100%;
+  }
+
+  .hero-prices h1 {
+    font-size: 5.0rem;
+    padding-top: 155px;
+  }
+
+  /* ===============
+    MEMBERSHIPS
+  =============== */
+  .memberships {
+    padding-top: 300px;
+  }
+
+  .prices-page .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .prices-page h2 {
+    padding: 0px 30px 20px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .prices-page h3 {
+    font-size: 2.4rem;
+    text-align: left;
+    padding-bottom: 5px;
+  }
+
+  .prices-page p {
+    text-align: left;
+    padding: 15px 0px;
+  }
+
+  .prices-page ul li {
+    text-align: left;
+    padding: 8px;
+    margin: 0px 22px;
+  }
+
+  .passes {
+    padding: 80px 0px;
+  }
+  /* ---------------------------------------------------------- SERVICES PAGE --------------------------------------------------- */
+  .orientation p {
+    padding: 20px 200px;
+  }
+
+  .classes .schedule{
+    width: 35%;
+  }
+
+  .classes .discription{
+    width: 40%;
+  }
+
+  /* ------------------------------------------------------------------ CONTACT PAGE ------------------------------------------------------------------ */
+  .contact-info {
+    padding: 80px 0px;
+  }
+
+  input[type="text"],
+  select,
+  textarea {
+    width: 95%;
+  }
+
+  input[type="email"] {
+    width: 95%;
+  }
+
+  fieldset {
+    width: 95%;
+  }
+}
