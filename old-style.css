@@ -10,7 +10,7 @@
    GLOBAL SETTINGS
    =============== */
 
-* {
+/* * {
   margin: 0px;
   padding: 0px;
 }
@@ -22,7 +22,7 @@ html {
 .flex-container {
   display: flex;
   flex-direction: column;
-}
+} */
 
 /* ===============
    TYPOGRAPHY
@@ -62,7 +62,7 @@ a {
 /* ===============
    Transition
    =============== */
-.hero a:hover {
+/* .hero a:hover {
   background-color: #436653;
 }
 
@@ -82,7 +82,7 @@ a {
 button {
   cursor: pointer;
   transition: color 2s ease-in-out;
-}
+} */
 
 /* ----------------------------------------------------------- HOMEPAGE ---------------------------------------------------------- */
 
@@ -90,23 +90,23 @@ button {
     NAVIGATION
    =============== */
 
-header {
+/* header {
   background-color: #619478;
-}
+} */
 
 /* header nav li a {
   font-size: 1.6rem;
 } */
 
-header img {
+/* header img {
   padding: 12px 50px;
-}
+} */
 
 /* ===============
     HERO
   =============== */
 
-.hero {
+/* .hero {
   padding-top: 80px;
   text-align: center;
 }
@@ -117,21 +117,22 @@ header img {
 
 .hero p {
   padding: 32px 30px 40px;
-}
+} */
 
-.hero a {
+/* .hero a {
   padding: 12px 48px;
   display: inline-block;
-  background-color: #619478;
   border-radius: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 40px; */
+  /* .hero a {
+  background-color: #619478;
   /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */ 
 
-.hero .image {
+/* .hero .image {
   padding: 0px;
-}
+} */
 
 /* .hero .flex-container{
     display: flex;
@@ -142,38 +143,41 @@ header img {
     SERVICES
   =============== */
 
-.services {
+/* .services {
   padding-top: 80px;
   text-align: center;
-}
+} */
 
-.services .text {
+/* .services .text {
   text-align: center;
-}
+} */
 
-.services h3 {
+/* .services h3 {
   font-size: 2.4rem;
-}
+} */
 
-.services h2 {
+/* .services h2 {
   padding: 0px 45px;
 }
 
 .services .text p {
   padding: 24px 40px;
-}
+} */
 
-.card1,
+/* .card1,
+.card2,
+.card3 { */
+  /* padding: 24px 16px;
+  margin: 20px 32px;
+  text-align: left; */
+  /* .card1,
 .card2,
 .card3 {
-  background-color: #f6f6f4;
   border-radius: 8px;
-  padding: 24px 16px;
-  margin: 20px 32px;
-  text-align: left;
+  background-color: #f6f6f6;
   /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #6 */
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} */
 
 /* .services h3 {
   text-transform: capitalize;
@@ -181,31 +185,31 @@ header img {
   font-size: 2.4rem;
 } */
 
-.services .flex-container p {
+/* .services .flex-container p {
   padding-top: 14px;
-}
+} */
 
-.services a {
+/* .services a {
   padding: 12px 48px;
   display: inline-block;
+  margin-top: 16px;
   background-color: #619478;
   border-radius: 12px;
-  margin-top: 16px;
-  /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
+  Box shadow is from https://getcssscan.com/css-box-shadow-examples #3
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+} */
 
 /* ===============
     ABOUT US
   =============== */
 
-.about {
+/* .about {
   padding: 80px 0px;
   text-align: center;
-}
+} */
 
-.about h3 {
-  padding: 0em 30px 36px;
+/* .about h3 {
+  padding: 0px 30px 36px;
 }
 
 .about p {
@@ -214,62 +218,62 @@ header img {
 
 .about .item2 {
   padding-top: 24px;
-}
+} */
 
 /* ===============
    CALL-TO-ACTION
   =============== */
 
-.cta {
-  background-color: #619478;
-  text-align: center;
-  padding-top: 80px;
-}
+/* .cta {
+  background-color: #619478; */
+  /* text-align: center;
+  padding-top: 80px; */
 
-.cta h2 {
+
+/* .cta h2 {
   padding: 0px 30px 36px;
   text-transform: capitalize;
-}
+} */
 
-.cta p {
-  /* color: #f6f6f6; */
+/* .cta p {
+  color: #f6f6f6;
   padding: 0px 24px 36px;
-}
+} */
 
-.cta a {
+/* .cta a {
   padding: 12px 48px;
   display: inline-block;
-  /* color: #f6f6f6; */
+  margin-bottom: 30px; 
+  color: #f6f6f6;
   border: solid 1px #f6f6f6;
   border-radius: 10px;
-  margin-bottom: 3.5em;
-  /* Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 */
+   Box shadow is from https://getcssscan.com/css-box-shadow-examples #3 
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+} */
 
 /* ===============
    Footer
   =============== */
-footer .flex-container {
+/* footer .flex-container {
   text-align: center;
-}
+} */
 
-footer .content-width {
-  border-bottom: 1px solid #619478;
+/* footer .content-width {
   width: 100%;
   margin: 0px;
-}
+  border-bottom: 1px solid #619478;
+} */
 
-footer .logo {
+/* footer .logo {
   padding: 30px 100px 0px;
-}
+} */
 
-footer h3 {
-  /* color: #ff99ba; */
-  /* font-size: 1.8rem;
-  font-weight: 800; */
+/* footer h3 {
+  color: #ff99ba;
+  font-size: 1.8rem;
+  font-weight: 800;
   padding: 36px 0px 20px;
-  /* text-transform: capitalize; */
+  text-transform: capitalize;
 }
 
 .hours p {
@@ -292,7 +296,7 @@ footer h3 {
 .flex-container .map {
   width: 375px;
   padding-bottom: 15px;
-}
+} */
 
 /* ---------------------------------------------------------- MEMBERSHIPS PAGE --------------------------------------------------- */
 /* ===============
@@ -314,18 +318,18 @@ footer h3 {
   opacity: 0.2;
 } */
 
-.hero-prices h1,
+/* .hero-prices h1,
 .hero-services h1 {
-  /* color: #ffffff; */
   padding-top: 110px;
-  text-align: center;
+  text-align: center; */
+    /* color: #ffffff; */
   /* text-transform: capitalize; */
-}
+
 
 /* ===============
     MEMBERSHIPS
   =============== */
-.memberships {
+/* .memberships {
   padding-top: 175px;
 }
 
@@ -335,45 +339,45 @@ footer h3 {
 }
 
 .prices-page h2 {
-  text-transform: capitalize;
   text-align: center;
   padding: 0px 30px;
-}
+  text-transform: capitalize;
+} */
 
 /* .prices-page h3 {
   font-size: 2.4rem;
 } */
-
+/* 
 .prices-page p {
-  /* color: #808080;
-  font-size: 1.4rem;
-  font-weight: 800; */
   padding: 10px 0px;
-}
+  color: #808080;
+  font-size: 1.4rem;
+  font-weight: 800;
+} */
 
-.prices-page ul li {
+/* .prices-page ul li {
   list-style-type: circle;
   padding: 8px;
   margin: 0px 22px;
-}
+} */
 
 /* ---------------------------------------------------------- SERVICES PAGE --------------------------------------------------- */
 
-.services h2 {
-  /* text-transform: capitalize; */
+/* .services h2 {
   text-align: center;
   padding-bottom: 20px;
+    text-transform: capitalize;
 }
 
 .services p {
   text-align: center;
-}
+} */
 
 /* ============================
     PERSONAL TRAINING SECTION 
   ============================= */
 
-.pt {
+/* .pt {
   padding-top: 175px;
 }
 
@@ -386,41 +390,40 @@ table {
 }
 
 caption {
-  /* font-size: 2.2rem;
+  font-size: 2.2rem;
   font-weight: 800;
-  text-transform: capitalize; */
+  text-transform: capitalize;
   padding-bottom: 10px;
-}
+} */
 
-td,
+/* td,
 th {
   padding: 10px;
-  /* border: 1px solid #808080; */
-}
+} */
 
-th {
+/* th {
   padding: 15px 0px;
   text-align: center;
   background-color: #619478;
-  /* color: #f6f6f6; */
-}
+  color: #f6f6f6;
+} */
 
-tr td {
+/* tr td {
   text-align: center;
-}
+} */
 
-tr:nth-child(odd) {
+/* tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
 
 tbody tr:hover {
   background-color: #ddd;
-}
+} */
 
 /* ====================
     CLASSES SECTION
   ===================== */
-.classes {
+/* .classes {
   padding-top: 80px;
 }
 
@@ -440,7 +443,7 @@ tbody tr:hover {
 
 .classes .link {
   text-align: center;
-}
+} */
 
 /* .classes .link a {
   text-transform: capitalize;
@@ -451,49 +454,49 @@ tbody tr:hover {
 /* ====================
     ORIENTATION
   ===================== */
-.orientation {
+/* .orientation {
   padding: 80px 0px 30px;
   border-bottom: solid 1px #619478;
-}
+} */
 
-.orientation p {
+/* .orientation p {
   padding: 0px 15px 15px;
-}
+} */
 
 /* ------------------------------------------------------------------ CONTACT PAGE ------------------------------------------------------------------ */
 /* ====================
     CONTACT US
   ===================== */
-.contact-info {
+/* .contact-info {
   padding: 30px 0px;
   text-align: center;
 }
 
 .contact-info h2 {
-  /* text-transform: capitalize; */
+  text-transform: capitalize;
   padding-bottom: 25px;
-}
+} */
 
 /* ====================
     FORM
   ===================== */
-.form-container {
-  border-radius: 10px;
-  background-color: #f6f6f6;
+/* .form-container {
   padding: 20px;
   max-width: 75%;
   margin: 30px auto;
-}
+  border-radius: 10px;
+  background-color: #f6f6f6;
+} */
 
-.form-container h2 {
-  /* text-align: center;
-  text-transform: capitalize; */
+/* .form-container h2 {
+  text-align: center;
+  text-transform: capitalize;
   padding-bottom: 30px;
-}
+} */
 
-input[type="reset"] {
-  /* text-transform: uppercase;
-  color: #619478; */
+/* input[type="reset"] {
+  text-transform: uppercase;
+  color: #619478;
   padding: 10px 24px;
   border: 1px solid #619478;
   border-radius: 10px;
@@ -504,8 +507,8 @@ input[type="reset"]:hover {
 }
 
 input[type="submit"] {
-  /* text-transform: uppercase;
-  color: #f6f6f6; */
+  text-transform: uppercase;
+  color: #f6f6f6;
   background-color: #619478;
   padding: 10px 24px;
   border: 1px solid #619478;
@@ -514,12 +517,12 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #436653;
-}
+} */
 
-.wrapper-button {
+/* .wrapper-button {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /* input,
 select,
@@ -569,7 +572,7 @@ input:required {
   /* ===============
    GLOBAL SETTINGS
   =============== */
-
+/* 
   .content-width {
     width: 1170px;
     margin: auto;
@@ -578,48 +581,48 @@ input:required {
   h1,
   h2 {
     font-size: 3.8rem;
-  }
+  } */
 
   /* ===============
     NAVIGATION
    =============== */
 
-  header nav ul {
+  /* header nav ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     list-style-type: none;
     padding: 20px 0px 20px 50px;
-  }
+  } */
 
-  header nav li {
+  /* header nav li {
     padding: 12px 50px;
   }
 
   header .toggle {
     display: none;
-  }
+  } */
 
-  header .flex-container {
+  /* header .flex-container {
     display: flex;
     flex-direction: row;
-  }
+  } */
 
   /* ===============
     HERO
   =============== */
-  .hero {
+  /* .hero {
     background-color: #f6f6f4;
     text-align: left;
     padding-top: 0px;
-  }
+  } */
 
   .hero .flex-container {
     display: flex;
     flex-direction: row;
   }
 
-  .hero .text {
+  /* .hero .text {
     width: 60%;
     padding: 60px 0px 0px 155px;
   }
@@ -627,9 +630,9 @@ input:required {
   .hero h1 {
     padding-right: 115px;
     padding-left: 0px;
-  }
+  } */
 
-  .hero p {
+  /* .hero p {
     padding: 30px 135px 45px 0px;
   }
 
@@ -640,13 +643,13 @@ input:required {
   .hero .image {
     max-width: 40%;
     object-fit: cover;
-  }
+  } */
 
   /* ===============
     SERVICES
   =============== */
 
-  .services {
+  /* .services {
     padding: 80px 0px 60px;
   }
 
@@ -669,13 +672,13 @@ input:required {
 
   .services a {
     padding: 14px 60px;
-  }
+  } */
 
   /* ===============
     ABOUT
   =============== */
 
-  .about {
+  /* .about {
     padding-top: 80px;
     border-top: 1px solid #619478;
   }
@@ -692,42 +695,42 @@ input:required {
 
   .about .item2 {
     padding-top: 30px;
-  }
+  } */
 
   /* ===============
     CTA
   =============== */
 
-  .cta {
+  /* .cta {
     padding: 80px 0px 60px;
     border-bottom: 1px solid #619478;
-  }
+  } */
 
-  .cta .flex-container {
+  /* .cta .flex-container {
     flex-direction: row;
   }
 
   .cta .text {
     text-align: left;
     width: 75%;
-  }
+  } */
 
-  .cta h2 {
+  /* .cta h2 {
     padding: 0px 0px 0px 50px;
   }
 
   .cta p {
     padding: 24px 180px 0px 50px;
-  }
+  } */
 
-  .cta .link {
+  /* .cta .link {
     padding-top: 45px;
-  }
+  } */
   /* ===============
     FOOTER
   =============== */
 
-  footer .flex-container {
+  /* footer .flex-container {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -739,17 +742,17 @@ input:required {
 
   footer {
     border-top: solid 1px #619478;
-  }
+  } */
 
-  footer h3 {
+  /* footer h3 {
     padding-top: 0px;
   }
 
   .hours p {
     padding-bottom: 24px;
-  }
+  } */
 
-  .flex-container .hours {
+  /* .flex-container .hours {
     order: 2;
   }
 
@@ -762,7 +765,7 @@ input:required {
     order: 1;
     width: 50%;
     padding: 0px;
-  }
+  } */
 
 
   /* ---------------------------------------------------------- MEMBERSHIPS PAGE --------------------------------------------------- */
@@ -791,29 +794,29 @@ input:required {
     padding-top: 300px;
   }
 
-  .prices-page .flex-container {
+  /* .prices-page .flex-container {
     display: flex;
     flex-direction: row;
-  }
+  } */
 
-  .prices-page h2 {
+  /* .prices-page h2 {
     padding: 0px 30px 20px;
     text-align: center;
     text-transform: capitalize;
-  }
+  } */
 
-  .prices-page h3 {
+  /* .prices-page h3 {
     font-size: 2.4rem;
     text-align: left;
     padding-bottom: 5px;
-  }
+  } */
 
-  .prices-page p {
+  /* .prices-page p {
     text-align: left;
     padding: 15px 0px;
-  }
+  } */
 
-  .prices-page ul li {
+  /* .prices-page ul li {
     text-align: left;
     padding: 8px;
     margin: 0px 22px;
@@ -821,9 +824,9 @@ input:required {
 
   .passes {
     padding: 80px 0px;
-  }
+  } */
   /* ---------------------------------------------------------- SERVICES PAGE --------------------------------------------------- */
-  .orientation p {
+  /* .orientation p {
     padding: 20px 200px;
   }
 
@@ -833,10 +836,10 @@ input:required {
 
   .classes .discription{
     width: 40%;
-  }
+  } */
 
   /* ------------------------------------------------------------------ CONTACT PAGE ------------------------------------------------------------------ */
-  .contact-info {
+  /* .contact-info {
     padding: 80px 0px;
   }
 
@@ -853,4 +856,5 @@ input:required {
   fieldset {
     width: 95%;
   }
+} */
 }
