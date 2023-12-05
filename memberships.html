@@ -24,7 +24,7 @@
 
                 <nav>
                     <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
-                    <ul>
+                    <ul id="nav-items">
                         <li><a href="index.html">home</a></li>
                         <li><a href="memberships.html">memberships </a></li>
                         <li><a href="services.html">services</a></li>
@@ -164,6 +164,12 @@
             were approved by the business owner.</small>
     </footer>
 
+    <script>
+        function showNav() {
+            var element = document.getElementById("nav-items");
+            element.classList.toggle("show-items");
+        }
+    </script>
 </body>
 
 

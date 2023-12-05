@@ -37,12 +37,16 @@ header .flex-container {
   flex-direction: row;
 }
 
-.nav-toggle{
-  padding: 50px;
+header nav ul {
+  flex-direction: column;
+  display: none;
+  list-style: none;
 }
 
-#nav-ul {
-  display: none;
+header nav .toggle {
+  align-self: flex-end;
+  padding: 27px 0px 25px 120px;
+  position: absolute;
 }
 
 .show-items {
@@ -433,7 +437,7 @@ footer h3 {
   font-weight: 800;
 }
 
-.memberships h3 {
+.prices-page h3 {
   color: #619478;
 }
 
@@ -588,6 +592,10 @@ fieldset {
 /* -----------------------------------------------------
     BUTTON & TRANSITIONS
    ----------------------------------------------------- */
+header nav .toggle {
+  cursor: pointer;
+}
+
 input[type="reset"] {
   padding: 10px 24px;
   border: 1px solid #619478;
@@ -664,6 +672,7 @@ button {
     align-items: center;
     list-style-type: none;
     padding: 20px 0px 20px 50px;
+    margin-left: 450px;
   }
 
   header nav li {
