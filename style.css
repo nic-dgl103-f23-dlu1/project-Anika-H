@@ -32,6 +32,23 @@ header img {
   padding: 12px 0px 12px 16px;
 }
 
+header .flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-toggle{
+  padding: 50px;
+}
+
+#nav-ul {
+  display: none;
+}
+
+.show-items {
+  display: flex;
+}
+
 /*----- CARDS (SITE WIDE) -----*/
 .card1,
 .card2,
@@ -179,11 +196,11 @@ footer h3 {
 
 /*----- HERO (MEMBERSHIP & SERVICES) -----*/
 .hero-prices,
-  .hero-services {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-image: url(images/yoga-photo.jpg);
-  }
+.hero-services {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(images/yoga-photo.jpg);
+}
 
 .hero-prices h1,
 .hero-services h1 {
@@ -691,8 +708,8 @@ button {
     padding: 80px 0px;
   }
 
-  .pt{
-        padding-top: 160px;
+  .pt {
+    padding-top: 160px;
   }
 
   .services .text p {
@@ -820,7 +837,7 @@ button {
     padding-bottom: 5px;
   }
 
-  .passes{
+  .passes {
     padding: 80px 0px 150px;
   }
 
@@ -834,8 +851,8 @@ button {
     margin: 0px 153px;
   }
 
-  .orientation{
-
+  .orientation {
+    padding-bottom: 150px;
   }
 
   .orientation p {
@@ -845,7 +862,7 @@ button {
   .contact-info {
     padding: 80px 0px;
   }
-/*----- CONTACT PAGE -----*/
+  /*----- CONTACT PAGE -----*/
   input[type="text"],
   select,
   textarea {
