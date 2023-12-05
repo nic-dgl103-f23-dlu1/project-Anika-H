@@ -45,7 +45,7 @@ header nav ul {
 
 header nav .toggle {
   align-self: flex-end;
-  padding: 27px 0px 25px 120px;
+  margin: 27px 0px 25px 120px;
   position: absolute;
 }
 
