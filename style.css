@@ -399,10 +399,11 @@ footer h3 {
   text-transform: capitalize;
 }
 
-.phone, .email{
-    color: #808080;
-    font-size: 1.6rem;
-    text-transform: none;
+.phone,
+.email {
+  color: #808080;
+  font-size: 1.6rem;
+  text-transform: none;
 }
 
 /*----- SERVICES (HOMEPAGE) -----*/
