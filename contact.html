@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>LadyFit</title>
+    <!--F23 DGL 103 DLU - Anika Hara - CSS Essentials-->
+</head>
+
+<body>
+    <header>
+        <!-- NAVIGATION -->
+        <div class="contnent-width">
+
+            <div class="flex-container">
+
+                <a href="index.html"><img src="images/ladyfit-logo.png" alt="Lady Fit logo" width="200"></a>
+
+                <nav>
+                    <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+                    <ul id="nav-items">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="memberships.html">memberships </a></li>
+                        <li><a href="services.html">services</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>contact information</h2>
+            <p class="phone">250-914-5348</p>
+            <p>ladyfitcr@gmail.com</p>
+            <p>#206 - 489 South Dogwood Street, <br> Campbell River, BC V9W 6K6</p>
+        </section>
+
+        <div class="form-container">
+            <h2>membership inquiry</h2>
+
+            <form method="post" action="mailto:anikahara@gmail.com">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Ex: Jane" required>
+
+                <label for="lname">Last Name </label>
+                <input type="text" id="lname" name="lastname" placeholder="Ex: Doe" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Ex: janedoe@gmail.com" required>
+
+                <label for="membership">Membership Type</label>
+                <select id="membership" name="membership">
+                    <option value="year membership">1 Year Membership</option>
+                    <option value="month to month">Month to Month</option>
+                    <option value="month pass">1 Month Pass</option>
+                    <option value="week pass">1 Week Pass</option>
+                    <option value="punch pass">10 Punch Pass</option>
+                    <option value="n/a">N/A</option>
+                </select>
+
+                <fieldset>
+                    <legend>Choose inquiry Reason:</legend>
+                    <input type="radio" id="enroll" name="enroll" value="enroll for membership/pass">
+                    <label for="enroll">Enroll for Membership / Pass</label>
+                    <br>
+
+                    <input type="radio" id="info" name="term" value="info">
+                    <label for="info">For Information</label><br>
+
+                    <input type="radio" id="other" name="other" value="other">
+                    <label for="other">other</label>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Please tell us a little about your enquiry"
+                    style="height:200px"></textarea>
+
+                <div class="wrapper-button">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="content-width">
+
+            <img class="logo" src="images/ladyfit-logo.png" alt="Lady Fit logo">
+
+            <div class="flex-container">
+                <div class="hours">
+                    <h3>hours</h3>
+                    <p>monday - friday: <br> 9:00am - 8:00pm</p>
+                    <p>saturday &amp; sunday: <br> 8:00am - 2:00pm</p>
+                </div>
+
+                <div class="contact">
+                    <h3>contact us</h3>
+                    <address>
+                        <a class="phone" href="tel:250-914-534">250-914-5348</a><br>
+                        <a class="email" href="mailto:ladyfitcr@gmail.com">ladyfitcr@gmail.com</a>
+                    </address>
+                    <p>#206 - 489 South Dogwood Street, <br> Campbell River, BC V9W 6K6</p>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/"><img src="images/insta-icon.png" alt="instagram logo"
+                                width="25"></a>
+                        <a href="https://twitter.com/"><img src="images/twitter-icon.png" alt="twitter logo"
+                                width="25"></a>
+                        <a href="https://www.facebook.com/"><img src="images/facebook-icon.png" alt="facebook logo"
+                                width="25"></a>
+                        <a href="https://www.pinterest.ca/"><img src="images/pinterest-icon.png" alt="pintrest logo"
+                                width="25"></a>
+                    </div>
+                </div>
+
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10258.698248572526!2d-125.2466964!3d49.9987106!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5462a90196e3dc95%3A0x37c55a862e37a15c!2sLady%20Fit!5e0!3m2!1sen!2sca!4v1700880438049!5m2!1sen!2sca"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <small class="disclaimer">Disclaimer: this is a fictional website that was designed and coded as an educational
+            exercise. It is not intended to be seen outside of the class environment. None of the content and images
+            were approved by the business owner.</small>
+    </footer>
+
+    <script>
+        function showNav() {
+            var element = document.getElementById("nav-items");
+            element.classList.toggle("show-items");
+        }
+    </script>
+</body>
+
+</html>
