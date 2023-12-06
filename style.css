@@ -399,6 +399,12 @@ footer h3 {
   text-transform: capitalize;
 }
 
+.phone, .email{
+    color: #808080;
+    font-size: 1.6rem;
+    text-transform: none;
+}
+
 /*----- SERVICES (HOMEPAGE) -----*/
 .services h3 {
   color: #619478;
@@ -621,7 +627,7 @@ input[type="submit"]:hover {
   background-color: #436653;
 }
 
-.services a:hover {
+.services-homepage a:hover {
   background-color: #436653;
 }
 
